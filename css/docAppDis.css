@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.btnApp {
+    
+    width: 30%;
+    background: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.btnDis {
+    
+    width: 30%;
+    background: #af4c4c;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.tdAlign {
+    width: 25%;
+}

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+  }
+  
+  .about {
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
+  
+  .our-story {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title-team {
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
+  
+  .team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .team-member {
+    text-align: center;
+    color: black;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+  }
+  

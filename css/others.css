@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  margin:0;
+  padding:0
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: calibri;
+}
+
+th, td {
+    padding: 10px;
+}
+
+p {
+    line-height: 2.5;
+}
+
+#brCustomSpace1 {
+    display: block;
+    margin-bottom: 120px;
+}
+
+#brCustomSpace2 {
+    display: block;
+    margin-bottom: 150px;
+}
+
+#brCustomSpace3 {
+    display: block;
+    margin-bottom: 200px;
+}
+
+#bottomPage {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1000;
+}
+
+#docuBody {
+    margin-top:3em;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid gray;
+	width:25em;
+    font-size: 20px;
+}
+
+.document{
+	border-bottom:1px solid gray;
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+}
